@@ -7,10 +7,11 @@ html {
 }
 
 header {
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0px;
     width: 100%;
     height: 50px;
     background-color: rgb(229, 228, 228);
@@ -139,12 +140,12 @@ h3, h4 {
     margin: 0;
 }
 
-#iframe-section {
+.section-works {
     display: flex;
     justify-content: center;
 }
 
-#pricing {
+.section-pricing {
     margin: 50px;
     display: flex;
     flex-direction: row;
