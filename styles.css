@@ -67,7 +67,7 @@ h1 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    margin: auto;
+    margin: 100px auto 20px;
 }
 
 form {
@@ -79,16 +79,15 @@ form {
     width: 275px;
     height: 40px;
     text-align: center;
-
 }
 
-#email {
+.input-email {
     padding: 5px;
     max-width: 270px;
     width: 100%;
 }
 
-button {
+.input-submit {
     font-weight: bold;
     background-color:rgb(248, 225, 75);
     font-size: 19px;
@@ -97,6 +96,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     border: none;
+    padding: 10px 20px;
 }
 
 i {
@@ -229,7 +229,7 @@ footer {
     }
   }
 
-#features {
+.section-features {
     margin-top: 150px;
 }
 
@@ -239,6 +239,5 @@ footer {
 
 .desc {
   margin-left: 50px;
-  
 }
 
