@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(229, 228, 228);
+}
+
+header {
+    position: Sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(229, 228, 228);
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    display: block;
+    width: 35%;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: block;
+    width: 50%;
+}
+
+ol {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.subtitle {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin:auto;
+}
+
+form {
+    display: block;
+    border: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 275px;
+    height: 40px;
+    text-align: center;
+
+}
+
+#email {
+    padding: 5px;
+    max-width: 270px;
+    width: 100%;
+}
+
+button {
+    font-weight: bold;
+    background-color:rgb(248, 225, 75);
+    font-size: 19px;
+    margin: 10px;
+    max-width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    font-size: 70px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 400px;
+}
+
+.fa-fire{
+    margin-bottom: 60px;
+}
+
+.fa-truck{
+    margin top: 0;
+    margin-bottom: 60px;
+}
+
+.fa-battery-full {
+    margin-top: 0;
+}
+
+.describe {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 250px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3, h4 {
+    margin-top: 50px;
+}
+
+.para {
+    margin: 0;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    margin-top: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 315px;
+    width: 100%;
+    max-width: 560px;
+}
+
+#pricing {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.type {
+    font-weight: bold;
+    font-size: larger;
+    background-color: grey;
+    width: 100%;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.price {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.lorem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+li {
+    margin: 5px;
+}
+
+.btn {
+    font-weight: normal;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction:column;
+    background-color: grey;
+    margin-bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+#navbar-footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    height: 20px;
+    margin: 20px 30px 0 77%;
+}
+
+#footer {
+    width: 100%;
+}
+
+#copyright {
+    width: 30%;
+    margin: 10px 40px 0 74%;
+}
+
+
+
