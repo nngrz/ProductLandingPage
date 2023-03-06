@@ -7,7 +7,7 @@ html {
 }
 
 header {
-    position: Sticky;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +20,7 @@ header {
 
 body {
     font-family: 'Lato', sans-serif;
+    display: flex;
 }
 
 .logo {
@@ -234,5 +235,9 @@ footer {
     margin: 10px 40px 0 74%;
 }
 
-
+@media only screen and (max-width: 720px) {
+    .image-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
 
